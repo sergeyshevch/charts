@@ -1,9 +1,0 @@
-[submodule "charts"]
-	path = charts
-	url = git@github.com:sergeyshevch/charts
-	branch = charts
-[submodule "sources/multi-gatekeeper"]
-	path = sources/multi-gatekeeper
-	url = git@github.com:sergeyshevch/multi-gatekeeper.git
-	branch = main
-
