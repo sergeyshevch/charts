@@ -3,7 +3,7 @@ entries:
   multi-gatekeeper:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2022-03-23T14:36:48.631281+04:00"
+    created: "2022-03-23T17:41:50.993036+04:00"
     description: Chart for simplify deploing multiple keycloak-gatekeeper proxies
     digest: 1e32a3ab48e7c17fdb243d39ba2feb32dd43a64053e2b355ebb3102388e90c9f
     home: https://github.com/sergeyshevch/multi-gatekeeper
@@ -25,4 +25,25 @@ entries:
     urls:
     - https://sergeyshevch.github.io/charts/multi-gatekeeper-1.2.0.tgz
     version: 1.2.0
-generated: "2022-03-23T14:36:48.629581+04:00"
+  s3manager:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2022-03-23T17:41:50.993447+04:00"
+    description: Chart for s3manager - web GUI for s3
+    digest: d89ccf5036a6e7816f170a0e01c84eefc83330d6cf7912d498a916e0b39f0e5b
+    home: https://github.com/sergeyshevch/s3manager-helm
+    keywords:
+    - s3
+    - s3manager
+    maintainers:
+    - email: sergeyshevchdevelop@gmail.com
+      name: sergeyshevch
+      url: https://github.com/sergeyshevch
+    name: s3manager
+    sources:
+    - https://github.com/cloudlena/s3manager
+    type: application
+    urls:
+    - https://sergeyshevch.github.io/charts/s3manager-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-23T17:41:50.991853+04:00"
