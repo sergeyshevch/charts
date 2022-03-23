@@ -14,7 +14,7 @@ FORCE ?= 0
 # Specify commit message
 MSG = UPD $(shell date -R)
 # Specify url for HELM repository
-URL = https://dteamdev.github.io/charts/
+URL = https://sergeyshevch.github.io/charts/
 
 
 # Detect which submodules were changed
