@@ -6,10 +6,13 @@
 	path = sources/multi-gatekeeper
 	url = https://github.com/sergeyshevch/multi-gatekeeper.git
 	branch = main
-
 [submodule "sources/s3manager-helm"]
 	path = sources/s3manager-helm
 	url = https://github.com/sergeyshevch/s3manager-helm.git
 [submodule "sources/topologyspread-webhook"]
 	path = sources/topologyspread-webhook
 	url = https://github.com/sergeyshevch/topologyspread-webhook
+[submodule "sources/statuspage-exporter"]
+	path = sources/statuspage-exporter
+	url = https://github.com/sergeyshevch/statuspage-exporter
+	branch = main
