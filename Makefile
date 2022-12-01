@@ -10,7 +10,7 @@ DST = charts
 # Specify which sources should be updated
 WHAT ?= $(shell git ls-files ${SRC})
 # Force regenerate packages if no changes detected
-FORCE ?= 1
+FORCE ?= 0
 # Specify commit message
 MSG = UPD $(shell date -R)
 # Specify url for HELM repository
